@@ -15,6 +15,7 @@ This project transforms raw electronic sales data into actionable business insig
 - [Analysis Framework](#analysis-framework)
 - [Key Insights](#key-insights)
 - [Usage Examples](#usage-examples)
+- [Sample Output](#sample-output)
 - [Performance Optimization](#performance-optimization)
 
 ## ✨ Features
@@ -185,6 +186,19 @@ WHERE completion_rate > 90
 ORDER BY total_revenue DESC;
 ```
 
+## 📊 Sample Output
+
+Want to see what the analytics look like? Check out `SAMPLE_OUTPUT.md` for comprehensive examples of query results including:
+
+- **Executive Dashboard** with key business metrics and KPIs
+- **Customer segmentation** analysis with loyalty insights
+- **Product performance** rankings and satisfaction scores
+- **Sales trends** across seasons and months
+- **Payment and shipping** preference breakdowns
+- **Cross-selling opportunities** and bundling analysis
+
+The sample output demonstrates results from a dataset with ~15,847 orders, showing realistic business intelligence insights you can expect from your own data.
+
 ## ⚡ Performance Optimization
 
 The database includes strategic indexes for optimal performance:
@@ -224,8 +238,14 @@ The database includes strategic indexes for optimal performance:
 ## 📄 File Structure
 ```
 electronic-sales-data/
-├── README.md
-├── Electronic_Sales_Database.sql
-└── Electronic_sales_Sep2023-Sep2024.csv
+├── README.md                           # Main project overview
+├── REQUIREMENTS.md                     # Technical requirements and dependencies
+├── DATA_DICTIONARY.md                 # Schema documentation  
+├── SAMPLE_QUERIES.sql                 # Example queries with 20 use cases
+├── SAMPLE_OUTPUT.md                   # Example query results and KPI dashboard
+├── setup.sh                          # Automated setup script (executable)
+├── CHANGELOG.md                       # Version history and future roadmap
+├── .gitignore                         # Git ignore rules
+├── Electronic_Sales_Database.sql      # Main database script
+└── Electronic_sales_Sep2023-Sep2024.csv # Data file
 ```
-
