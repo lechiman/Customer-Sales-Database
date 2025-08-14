@@ -16,7 +16,6 @@ This project transforms raw electronic sales data into actionable business insig
 - [Key Insights](#key-insights)
 - [Usage Examples](#usage-examples)
 - [Performance Optimization](#performance-optimization)
-- [Contributing](#contributing)
 
 ## ✨ Features
 
