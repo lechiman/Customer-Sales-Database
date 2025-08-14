@@ -229,34 +229,3 @@ electronic-sales-data/
 └── Electronic_sales_Sep2023-Sep2024.csv
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add your analysis or improvements
-4. Test thoroughly
-5. Submit a pull request
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙋‍♂️ Support
-
-For questions, issues, or contributions:
-- Create an issue in this repository
-- Review the SQL comments for detailed explanations
-- Check the executive summary for high-level insights
-
-## 🔄 Version History
-
-- **v1.0**: Initial release with 11 analytical frameworks
-- Comprehensive customer and product analysis
-- Executive summary dashboard
-- Performance optimization
-
----
-
-**Built with ❤️ for data-driven decision making**
-
-> This project demonstrates advanced SQL analytics capabilities and provides a foundation for business intelligence reporting in retail/e-commerce environments.
