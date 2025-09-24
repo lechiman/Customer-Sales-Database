@@ -4,7 +4,7 @@ A comprehensive SQL-based business intelligence solution for analyzing electroni
 
 ## 🎯 Project Overview
 
-This project transforms raw electronic sales data into actionable business insights using MySQL. It features a complete database schema, automated analysis scripts, and 11 key analytical frameworks covering everything from customer demographics to product bundling opportunities.
+This project transforms raw electronic sales data into actionable business insights using MySQL and an interactive Streamlit web dashboard. It features a complete database schema, automated analysis scripts, 11 key analytical frameworks covering everything from customer demographics to product bundling opportunities, and a user-friendly web interface for data exploration.
 
 ## 📋 Table of Contents
 
@@ -13,6 +13,7 @@ This project transforms raw electronic sales data into actionable business insig
 - [Getting Started](#getting-started)
 - [Data Import](#data-import)
 - [Analysis Framework](#analysis-framework)
+- [Interactive Streamlit Dashboard](#interactive-streamlit-dashboard)
 - [Key Insights](#key-insights)
 - [Usage Examples](#usage-examples)
 - [Sample Output](#sample-output)
@@ -28,6 +29,7 @@ This project transforms raw electronic sales data into actionable business insig
 - **Loyalty Program Analytics**: Member vs. non-member performance comparison
 - **Cross-selling Opportunities**: Product bundling and recommendation insights
 - **Executive Dashboard**: High-level KPI summary for leadership
+- **Interactive Streamlit Dashboard**: Web-based visualization and analytics interface
 - **Data Quality Validation**: Built-in data validation and quality checks
 
 ## 🗄️ Database Schema
@@ -147,6 +149,36 @@ IGNORE 1 ROWS;
 - Product affinity analysis
 - Bundle recommendation engine
 
+## 📱 Interactive Streamlit Dashboard
+
+We now provide a comprehensive Streamlit web dashboard that brings all these analyses to life with interactive visualizations and real-time insights.
+
+### Dashboard Features
+- **Interactive Data Exploration**: Filter and drill down into your sales data
+- **Real-time Analytics**: Dynamic charts and visualizations
+- **Executive Summary**: Key performance indicators at a glance
+- **Customer Insights**: Interactive customer segmentation and analysis
+- **Product Performance**: Visual product analytics and trends
+- **Sales Trends**: Time-series visualizations with seasonal patterns
+- **Cross-selling Analysis**: Interactive product bundling insights
+
+### Running the Dashboard
+
+1. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+2. **Launch the Dashboard**
+```bash
+streamlit run streamlit_dashboard.py
+```
+
+3. **Access the Application**
+Open your browser and navigate to `http://localhost:8501`
+
+The dashboard provides an intuitive interface to explore all the analytical frameworks mentioned above, making it easy for both technical and non-technical stakeholders to gain insights from the data.
+
 ## 🔍 Key Insights
 
 The analysis framework provides answers to critical business questions:
@@ -222,4 +254,30 @@ The database includes strategic indexes for optimal performance:
 ### Custom Functions
 - `get_primary_addon()`: Extract primary add-on purchases
 
-That's all, thank you for reading
+## 🔧 Customization
+
+### Adding New Analyses
+1. Follow the existing query structure
+2. Include proper commenting
+3. Use consistent naming conventions
+4. Add appropriate GROUP BY and ORDER BY clauses
+
+### Extending the Schema
+- Maintain referential integrity
+- Add indexes for new query patterns
+- Update views accordingly
+
+## 📄 File Structure
+```
+electronic-sales-data/
+├── README.md                           # Main project overview
+├── requirements.txt                    # Python dependencies for Streamlit dashboard
+├── DATA_DICTIONARY.md                 # Schema documentation  
+├── SAMPLE_QUERIES.sql                 # Example queries with 20 use cases
+├── SAMPLE_OUTPUT.md                   # Example query results and KPI dashboard
+├── streamlit_dashboard.py             # Interactive web dashboard application
+├── Electronic_Sales_Database.sql      # Main database script
+├── Electronic_sales_Sep2023-Sep2024.csv # Data file
+├── dashboard_instructions.md          # Dashboard setup and usage instructions
+└── project_summary_resume.txt         # Project summary and insights
+```
