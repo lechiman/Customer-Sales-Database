@@ -2,7 +2,7 @@
 
 Messy CSV sales data → cleaned, normalized SQL database → executive analytics + interactive dashboard.
 
-**Dataset:** 20,000 transactions | Sep 2023 – Sep 2024 | 12,136 customers
+**Dataset:** 20,000 transactions | Sep 2023 – Sep 2024 | 12,136 customers |
 **Stack:** MySQL, Python, Streamlit, SQLAlchemy, Plotly
 
 ---
